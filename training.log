@@ -1,0 +1,52 @@
+2021-05-01 14:17:05,831 ----------------------------------------------------------------------------------------------------
+2021-05-01 14:17:05,837 Model: "SequenceTagger(
+  (embeddings): StackedEmbeddings(
+    (list_embedding_0): FlairEmbeddings(
+      (lm): LanguageModel(
+        (drop): Dropout(p=0.05, inplace=False)
+        (encoder): Embedding(300, 100)
+        (rnn): LSTM(100, 2048)
+        (decoder): Linear(in_features=2048, out_features=300, bias=True)
+      )
+    )
+    (list_embedding_1): FlairEmbeddings(
+      (lm): LanguageModel(
+        (drop): Dropout(p=0.05, inplace=False)
+        (encoder): Embedding(300, 100)
+        (rnn): LSTM(100, 2048)
+        (decoder): Linear(in_features=2048, out_features=300, bias=True)
+      )
+    )
+  )
+  (word_dropout): WordDropout(p=0.05)
+  (locked_dropout): LockedDropout(p=0.5)
+  (embedding2nn): Linear(in_features=4096, out_features=4096, bias=True)
+  (rnn): LSTM(4096, 256, batch_first=True, bidirectional=True)
+  (linear): Linear(in_features=512, out_features=23, bias=True)
+  (beta): 1.0
+  (weights): None
+  (weight_tensor) None
+)"
+2021-05-01 14:17:05,841 ----------------------------------------------------------------------------------------------------
+2021-05-01 14:17:05,845 Corpus: "Corpus: 40586 train + 3546 dev + 3632 test sentences"
+2021-05-01 14:17:05,848 ----------------------------------------------------------------------------------------------------
+2021-05-01 14:17:05,851 Parameters:
+2021-05-01 14:17:05,852  - learning_rate: "0.1"
+2021-05-01 14:17:05,855  - mini_batch_size: "15"
+2021-05-01 14:17:05,857  - patience: "3"
+2021-05-01 14:17:05,859  - anneal_factor: "0.5"
+2021-05-01 14:17:05,862  - max_epochs: "30"
+2021-05-01 14:17:05,865  - shuffle: "True"
+2021-05-01 14:17:05,866  - train_with_dev: "False"
+2021-05-01 14:17:05,867  - batch_growth_annealing: "False"
+2021-05-01 14:17:05,870 ----------------------------------------------------------------------------------------------------
+2021-05-01 14:17:05,872 Model training base path: "/content/gdrive/MyDrive/NLP projects/NER projects/project 1"
+2021-05-01 14:17:05,874 ----------------------------------------------------------------------------------------------------
+2021-05-01 14:17:05,878 Device: cuda:0
+2021-05-01 14:17:05,885 ----------------------------------------------------------------------------------------------------
+2021-05-01 14:17:05,886 Embeddings storage mode: cpu
+2021-05-01 14:17:05,895 ----------------------------------------------------------------------------------------------------
+2021-05-01 14:20:22,955 epoch 1 - iter 270/2706 - loss 10.95880781 - samples/sec: 20.55 - lr: 0.100000
+2021-05-01 14:24:03,468 epoch 1 - iter 540/2706 - loss 8.79685531 - samples/sec: 18.37 - lr: 0.100000
+2021-05-01 14:27:44,890 epoch 1 - iter 810/2706 - loss 7.93086544 - samples/sec: 18.29 - lr: 0.100000
+2021-05-01 14:31:37,021 epoch 1 - iter 1080/2706 - loss 7.43261704 - samples/sec: 17.45 - lr: 0.100000
