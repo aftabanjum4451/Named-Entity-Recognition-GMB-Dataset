@@ -1,5 +1,5 @@
 # Recommended System 
-![alt text](https://github.com/[aftabanjum4451]/[reponame]/blob/[image]/ner-image.jpg?raw=true)
+![](image/ner-image.jpg)
 
 In Natural Language Processing (NLP) an Entity Recognition is one of the common problem. The entity is referred to as the part of the text that is interested in. In NLP, NER is a method of extracting the relevant information from a large corpus and classifying those entities into predefined categories such as location, organization, name and so on. Information about lables:
 
@@ -26,8 +26,8 @@ In Natural Language Processing (NLP) an Entity Recognition is one of the common 
 
 - Preprocess text data
 - Build and train Flair Model (Bi-directional LSTM-CRF)
- - Sub Glove Embedding
- - Sub Stacked Embeddings: Glove, forward and backward Flair embeddings
+  - Glove Embedding
+  - Stacked Embeddings: Glove, forward and backward Flair embeddings
 - Evaluate our model on the test set
 - Run the model on your own sentences!
 
