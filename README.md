@@ -25,7 +25,7 @@ In Natural Language Processing (NLP) an Entity Recognition is one of the common 
 ## Project Highlight
 
 - Preprocess text data
-- Build and train Flair Model (Bi-directional LSTM-CRF)
+- Build and train Flair Model: Bi-directional LSTM and CRF
   - Glove Embedding
   - Stacked Embeddings: Glove, forward and backward Flair embeddings
 - Evaluate our model on the test set
