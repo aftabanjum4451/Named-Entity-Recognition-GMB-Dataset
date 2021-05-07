@@ -1,7 +1,7 @@
 # Named Entity Recognition
 ![](images/ner-image.png)
 
-In Natural Language Processing (NLP) an Entity Recognition is one of the common problem. The entity is referred to as the part of the text that is interested in. In NLP, NER is a method of extracting the relevant information from a large corpus and classifying those entities into predefined categories such as location, organization, name and so on. Information about lables:
+In Natural Language Processing (NLP), Entity Recognition is one of the common problems. The entity is referred to as the part of the text that one is interested in. In NLP, NER is a method of extracting the relevant information from a large corpus and classifying those entities into predefined categories such as: location, organization, name and so on. ### Information about lables:
 
 - geo--> Geographical Entity
 
@@ -22,7 +22,7 @@ In Natural Language Processing (NLP) an Entity Recognition is one of the common 
 ## Dataset
 (https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus)
 
-## Project Highlight
+## Project Highlights
 
 - Preprocess text data
 - Build and train Flair Model: Bi-directional LSTM and CRF
@@ -32,6 +32,6 @@ In Natural Language Processing (NLP) an Entity Recognition is one of the common 
 - Run the model on your own sentences!
 
 ## How to Run The Code
-All the code and comments are listed the jupyter notbook (NER model file.ipynb)
+All the code and comments are listed in the jupyter notbook (NER model file.ipynb)
 
 
