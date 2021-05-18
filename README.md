@@ -1,7 +1,8 @@
 # Named Entity Recognition
 ![](images/ner-image.png)
 
-In Natural Language Processing (NLP), Entity Recognition is one of the common problems. The entity is referred to as the part of the text that one is interested in. In NLP, NER is a method of extracting the relevant information from a large corpus and classifying those entities into predefined categories such as: location, organization, name and so on. ## Information about lables:
+In Natural Language Processing (NLP), Entity Recognition is one of the common problems. The entity is referred to as the part of the text that one is interested in. In NLP, NER is a method of extracting the relevant information from a large corpus and classifying those entities into predefined categories such as: location, organization, name and so on.
+## Information about lables:
 
 - geo--> Geographical Entity
 
